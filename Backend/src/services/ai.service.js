@@ -7,7 +7,7 @@ const genAI = new GoogleGenerativeAI(process.env.GOOGLE_GEMINI_KEY);
 
 // Choose the Gemini model (flash = faster/cheaper, pro = better reasoning)
 const model = genAI.getGenerativeModel({
-  model: "gemini-1.5-flash",
+  model: "gemini-2.5-pro",
 });
 
 // Function to generate content
