@@ -24,7 +24,7 @@ function App() {
     try {
       setLoading(true);
       const response = await axios.post(
-        `${import.meta.env.VITE_API_URL}/ai/get-review`,
+        `${import.meta.env.VITE_API_URL}ai/get-review`,
         { code }
       );
       console.log("API Base URL:", import.meta.env.VITE_API_URL);
